@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar  navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Hoteles</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./price.html">Precios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./condition.html">Terminos y condiciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">contactos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="jumbotron">
+        <h1>Hoteles</h1>
+    </section>
+    <section class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
+            </ol>
+        </nav>
+    </section>
+    <section class="container">
+        <h1>Price</h1>
+
+        <ul class="nav nav-pills" id="price-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="price-tab_item" data-toggle="pill" href="#price" role="tab"
+                    aria-controls="price" aria-selected="true">price</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="card-tab_item" data-toggle="pill" href="#card" role="tab" aria-controls="card"
+                    aria-selected="false">card</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="comment-tab_item" data-toggle="pill" href="#comment" role="tab"
+                    aria-controls="comment" aria-selected="false">comment</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="price-content">
+            <div class="tab-pane fade show active" id="price" role="tabpanel" aria-labelledby="price-tab_item">
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead class="bg-primary">
+                            <th class="table-header text-white">calidad</th>
+                            <th class="table-header text-white">California</th>
+                            <th class="table-header text-white">Tryp</th>
+                            <th class="table-header text-white">Barcelona</th>
+                            <th class="table-header text-white">San Pablo</th>
+                            <th class="table-header text-white">Dubai</th>
+                            <th class="table-header text-white">Argentina</th>
+                            <th class="table-header text-white">Costa Rica</th>
+                            <th class="table-header text-white">Republica Dominicana</th>
+                            <th class="table-header text-white">Punta cana</th>
+                            <th class="table-header text-white">New York</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                </td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                </td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                </td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                </td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                                <td>$100,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="card" role="tabpanel" aria-labelledby="card-tab_item">
+
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn_accordion btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Tarjeta Basica
+                                    <span class="oi oi-credit-card"></span>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn_accordion btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Tarjeta VIP
+                                    <span class="oi oi-credit-card"></span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn_accordion btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Tarjeta Black
+                                    <span class="oi oi-credit-card"></span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="comment" role="tabpanel" aria-labelledby="comment-tab_item">
+                <h2>comment</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt voluptates
+                    debitis nam nisi quia perferendis expedita excepturi sint placeat, officiis possimus
+                    ad, quidem blanditiis perspiciatis voluptas doloribus, molestias nulla.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer">
+        <footer>
+            <div class="row">
+                <div class="col-sm-4 d-flex flex-column align-items-start">
+                    <a href="http://facebook.com">facebook</a>
+                    <a href="http://twitter">twitter</a>
+                    <a href="http://instagram.com">instagram</a>
+                    <a href="http://google.com">+ google</a>
+                </div>
+                <div class="col-sm-4  d-flex flex-column align-items-center">
+                    <address>
+                        <p><span class="pr-2 oi oi-location"></span>Colombia - Medellin</p>
+                        <p><span class="pr-2 oi oi-phone"></span> + 57 300-000-0000</p>
+                        <p><span class="pr-2 oi oi-inbox"></span> sgonzalezvagas.7cc@gmail.com</p>
+                    </address>
+                </div>
+                <div class="col-sm-4  d-flex flex-column align-items-end">
+                    <a href="http://facebook.com">Nosotros</a>
+                    <a href="http://twitter">Precios</a>
+                    <a href="http://instagram.com">Terminos y condiciones</a>
+                    <a href="http://google.com">contacto</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+h1 {
+    margin: 0px !important;
+}
+
+.container_header,  .title {
+    background-color: #0063E1;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: white;
+}
+
+.container_header p {
+    text-transform: none;
+}
+
+.container_title {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container_type {
+    border: 1px solid #0063E1;
+    border-radius: 10px;
+    padding-bottom: 1%;
+    margin: 20px;
+    width: 450px;
+}
+
+.description {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    align-items: start;
+    display: flex;
+}
+
+.input_text {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.btn {
+    text-transform: capitalize;
+    background-color: #0063E1;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    height: 40px;
+}
+
+.container_btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn {
+    margin: 0px 10px;
+}
+
+.title {
+    border-radius: 7px 7px 0px 0px;
+}

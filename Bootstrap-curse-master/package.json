@@ -1,0 +1,36 @@
+{
+  "name": "guia-hotel",
+  "version": "1.0.0",
+  "description": "curse bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "start": "concurrently \"npm run watch:scss\"  \"npm run dev\" ",
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o assets/css/ assets/scss/",
+    "watch:scss": "onchange 'assets/scss/*.scss' -- npm run scss",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin assets/images/* --out-dir dist/assets/images",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin view/about.html -d dist --htmlmin -o dist/about.html && usemin view/condition.html -d dist --htmlmin -o dist/condition.html && usemin view/contact.html -d dist --htmlmin -o dist/contact.html && usemin view/price.html -d dist --htmlmin -o dist/price.html "
+  },
+  "author": "sgonzalezvargas.7cc@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
+    "lite-server": "^2.6.1",
+    "node-sass": "^6.0.0",
+    "onchange": "^7.1.0",
+    "rimraf": "^3.0.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "concurrently": "^6.1.0",
+    "jquery": "^3.6.0",
+    "open-iconic": "^1.1.1",
+    "popper.js": "^1.16.1"
+  }
+}

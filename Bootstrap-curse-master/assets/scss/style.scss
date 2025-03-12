@@ -1,0 +1,69 @@
+$blue-primary: #007bff;
+$blue-footer: #9fcaf8;
+$black: #000;
+// $blue: blue;
+
+.jumbotron {
+    background-color: $blue-footer;
+    margin-top: 50px;
+    color: white;
+}
+
+.header-img {
+    height: 450px;
+    width: 100%;
+}
+
+.card-hotel {
+    margin-top: 10px;
+    flex: 1 220px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-reservation {
+    border-radius: 3px;
+    margin-bottom: 5px;
+    width: 90%;
+}
+
+.table-header:nth-child(1) {
+    width: 11%;
+}
+
+.table-header:nth-child(9) {
+    width: 1px;
+}
+
+.nav-pills {
+    padding-bottom: 10px;
+}
+
+.btn_accordion {
+    text-decoration: none;
+    text-align: inherit;
+    font-weight: 700;
+    font-size: 21px;
+    width: 100%;
+
+    &:hover, &:active {
+        text-decoration: none;
+        color: $black;
+    }
+}
+
+.footer {
+    background-color: $blue-footer;
+    padding: 25px 20px 0 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: $black;
+
+    a {
+        color:$black; 
+    }
+}
