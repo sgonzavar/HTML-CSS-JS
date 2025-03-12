@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>listado Personas</title>
+</head>
+<body onload="showPeople()">
+    <section class="container">
+        <section id="header">
+            <h1>listado</h1>
+        </section>
+    </section>
+    <section class="container">
+        <section class="element">
+            <ul id="person">
+                <li>tiago Static</li>
+            </ul>
+        </section> 
+    </section>
+    <section class="container">
+        <div class="align">
+            <button class="pointer" onclick="addPerson()">+</button>
+        </div>
+        <form id="form">
+            <input type="text" name="name" id="name" placeholder="Nombre">
+            <input type="text" name="lastname" id="lastname" placeholder="Apellido">
+        </form> 
+        <div id="popUp" class="pop"></div>
+
+    </section>
+
+
+    <script src="./person.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
